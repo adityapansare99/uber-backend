@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://uberio.netlify.app/",
+    origin: "https://uberio.netlify.app",
     credentials: true,
   })
 );
